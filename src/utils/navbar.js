@@ -1,15 +1,12 @@
 import Generic from "../pages/Generic";
+import HomePage from "../pages/Home";
 
 export const navbar = [
   {
     id: 1,
     title: "Home",
     path: "/home",
-    element: (
-      <h1>
-        <Generic />
-      </h1>
-    ),
+    element: <HomePage />,
   },
   {
     id: 2,
