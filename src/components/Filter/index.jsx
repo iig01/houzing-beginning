@@ -8,24 +8,30 @@ import { Popover } from "antd";
 export const Filter = () => {
   const content = (
     <Wrapper>
-      <Title>Address</Title>
-      <Fragment>
-        <Input placeholder="Country" width="200px" />
-        <Input placeholder="Region" width="200px" />
-        <Input placeholder="City" width="200px" />
-        <Input placeholder="Zip code" width="200px" />
-      </Fragment>
-      <Title>Apartment Info</Title>
-      <Fragment>
-        <Input placeholder="Rooms" />
-        <Input placeholder="Size" />
-        <Input placeholder="Sort" />
-      </Fragment>
-      <Title>Price</Title>
-      <Fragment>
-        <Input placeholder="Min price" />
-        <Input placeholder="Max price" />
-      </Fragment>
+      <div>
+        <Title>Address</Title>
+        <Fragment>
+          <Input placeholder="Country" width="200px" />
+          <Input placeholder="Region" width="200px" />
+          <Input placeholder="City" width="200px" />
+          <Input placeholder="Zip code" width="200px" />
+        </Fragment>
+      </div>
+      <div>
+        <Title>Apartment Info</Title>
+        <Fragment>
+          <Input placeholder="Rooms" />
+          <Input placeholder="Size" />
+          <Input placeholder="Sort" />
+        </Fragment>
+      </div>
+      <div>
+        <Title>Price</Title>
+        <Fragment>
+          <Input placeholder="Min price" />
+          <Input placeholder="Max price" />
+        </Fragment>
+      </div>
     </Wrapper>
   );
   return (
