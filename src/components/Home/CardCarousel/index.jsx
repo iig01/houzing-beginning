@@ -4,9 +4,7 @@ export const CardCarousel = () => {
   return (
     <div>
       <div className="title">Ismail aka</div>
-      <div className="description">
-        Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
-      </div>
+      <div className="description">Nazmi shumo</div>
     </div>
   );
 };
